@@ -7,6 +7,6 @@ unoconv $path/read.odt -o $path/read.pdf
 rm $path/read.odt
 rm $path/read.txt
 
-evince $path/read.pdf
+evince -s $path/read.pdf
 
 exit

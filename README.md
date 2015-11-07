@@ -20,6 +20,10 @@ And _the last step was have custom made PDF file of highlanded content with two 
 3. Right mouse button for contex menu and left mouse button for starting RunWith extension
 4. You have nice PDF file on you screen
 
+# How to create custom ODT template (reference file) for pandoc
+1. Use pandoc to create empty ODT file
+2. Edit ODT file in LibreOffice (make changes in styles and page setup - not in the content of the file)
+
 # Script explanation
 
     #!/bin/bash

@@ -11,7 +11,7 @@ And _the last step was have custom made PDF file of highlanded content with two 
 - RunWith - Firefox/Iceweasel extention to start script from context menu
 - xclip - for content to text file export
 - pandoc - for text file to ODT convertion with custom made template
-- unoconv (libreoffice needed) - for ODT to PDF convertion (can be done directly in pandoc, however I prefere this solution due to masive pandoc-tex package)
+- unoconv (libreoffice needed) - for ODT to PDF convertion (can be done directly in pandoc, however I prefere this solution due to massive pandoc-tex package)
 - evince - for PDF reading
 
 # How to use it
@@ -36,7 +36,7 @@ And _the last step was have custom made PDF file of highlanded content with two 
     # conversion ODT to PDF using LibreOffice
     unoconv $path/read.odt -o $path/read.pdf
     
-    # removing some temperary files
+    # removing some temporary files
     rm $path/read.odt
     rm $path/read.txt
     
